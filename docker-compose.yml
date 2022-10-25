@@ -26,4 +26,4 @@ services:
      - mysqldb
 
 volumes:
-achatdb:
+  achatdb:

@@ -10,8 +10,6 @@ services:
    environment:
     MYSQL_DATABASE: achatdb
     MYSQL_ROOT_PASSWORD:
-    MYSQL_USER: root
-    MYSQL_PASSWORD:
    volumes:
      - /home/mysql/data:/var/lib/mysql --user 1000
 

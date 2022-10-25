@@ -9,12 +9,12 @@ services:
     - 3307:3306
    environment:
     MYSQL_DATABASE: achatdb
-    MYSQL_ROOT_PASSWORD:
+    MYSQL_ROOT_PASSWORD: 
    volumes:
      - /home/mysql/data:/var/lib/mysql --user 1000
 
   spring_app:
-   image: Esmek/esemElImageFeldockerhub
+   image: fir4s26/achatapp
    container_name: achatprojet
    restart: on-failure
    ports:
